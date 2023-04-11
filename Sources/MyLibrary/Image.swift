@@ -10,6 +10,7 @@ import SwiftUI
 import UIKit
 
 extension Image {
+    public static let nexcomponent = ComponentIcon()
     public init(packageResource name: String, ofType type: String) {
         #if canImport(UIKit)
         guard let path = Bundle.module.path(forResource: name, ofType: type),
