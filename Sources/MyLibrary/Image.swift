@@ -30,3 +30,9 @@ extension Image {
         #endif
     }
 }
+
+
+public struct ComponentIcon {
+    public let icon =  Image(packageResource: "Icon Area_Emoji", ofType: "svg")
+    public let iconMedia =  Image(packageResource: "Love", ofType: "svg")
+}
